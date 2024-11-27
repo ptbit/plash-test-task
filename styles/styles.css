@@ -40,12 +40,46 @@
   font-size: 18px;
 }
 
-.subtitle{
+.subtitle {
   padding: 0 0 10px;
   font: 900 22px/29px roboto, roboto_;
   margin: -5px 0 0;
 }
 
-.text{
+.text {
   margin-top: 15px;
+}
+
+.from__section {
+  margin-top: 40px;
+  margin-bottom: 90px;
+}
+
+.from__section form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form__title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.form__input {
+  padding: 10px 20px;
+  font-size: 22px;
+  background-color: rgba(128, 128, 128, 0.116);
+  outline: none;
+  border: 3px solid transparent;;
+}
+.form__input:focus {
+  border-bottom: 3px solid grey;
+}
+
+.form__button {
+  padding: 10px 20px;
+  font-size: 22px;
+  cursor: pointer;
 }

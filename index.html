@@ -30,14 +30,11 @@
       href="https://static.im-g.pl/css/fonts/roboto-v18-latin_latin-ext-900.woff"
     />
 
-    <!-- <link rel="stylesheet" href="./styles/style-mobile-min.css.css" /> -->
-    <!-- scripts 1.4 webpack- jenkins:  -->
+   
     <script
       defer
       src="https://static.im-g.pl/style-modules/master/webpack/Green/275/pagetype7/main.js.jsgz?t=1732193175445"
     ></script>
-    <!-- Google module -->
-    <!-- scripts 1.4 webpack- jenkins:  -->
     <link rel="stylesheet" href="./styles/style-desk-min.css" />
     <link rel="stylesheet" href="./styles/styles.css" />
 
@@ -83,10 +80,6 @@
 
       gazeta_pl.rootSectionId = 114471;
     </script>
-
-    <!-- <script defer src="./scripts/main-min.jsgz"></script> -->
-
-    <!-- <script defer src="./scripts/main.js"></script> -->
 
     <meta
       name="viewport"
@@ -3545,7 +3538,41 @@
         <h2 class="art_sub_title">і так далі .....</h2>
       </div>
 
-    
+      <section class="from__section">
+        <h3 class="form__title">Contact form:</h3>
+        <form action="#" onsubmit="this.reset(); return false;">
+          <input
+            class="form__input"
+            type="text"
+            placeholder="Name"
+            pattern=".*\S.*"
+            required
+            minlength="2"
+          />
+          <input
+            class="form__input"
+            type="text"
+            placeholder="Surname"
+            minlength="2"
+          />
+          <input
+            class="form__input"
+            type="email"
+            placeholder="Email"
+            required
+          />
+          <input
+            class="form__input"
+            type="tel"
+            placeholder="Phone nummber"
+            required
+            minlength="10"
+          />
+          <button class="form__button" type="submit">Send form</button>
+        </form>
+      </section>
+
+      <!-- <div>
         <section class="tags">
           <span class="tags_header">Wi�cej o:</span>
           <ul class="tags_list">
@@ -3577,8 +3604,9 @@
             </li>
           </ul>
         </section>
-      </div>
-      <div class="right_aside">
+      </div> -->
+
+      <!-- <div class="right_aside">
         <div class="ban003_wrapper">
           <div
             id="adUnit-003-RECTANGLE"
@@ -3880,7 +3908,7 @@
           <span class="banLabel" style="display: none">REKLAMA</span>
           <div id="div-gpt-ad-035-RECTANGLE-BTF-0"></div>
         </div>
-      </div>
+      </div> -->
 
       <div class="top_section_bg"></div>
       <div class="bottom_section_bg"></div>
